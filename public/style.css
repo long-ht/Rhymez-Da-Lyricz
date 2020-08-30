@@ -1,0 +1,31 @@
+body {
+    background-image: url("bg.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'lulocleanw01-oneboldregular';
+    src: url('fontsfree-net-lulo-clean-w01-one-bold-webfont.woff2') format('woff2'), url('fontsfree-net-lulo-clean-w01-one-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: bolder;
+}
+
+.title-bar {
+    font-family: lulocleanw01-oneboldregular;
+    text-align: center;
+    padding: 3rem 0.5rem 1rem 0.5rem;
+    font-size: 30em;
+    color: orangered;
+}
+
+.gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.list {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
